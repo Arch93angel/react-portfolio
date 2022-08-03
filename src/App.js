@@ -8,6 +8,12 @@ import "./stylesheets/home.css";
 import "./stylesheets/courosel.css";
 import "./stylesheets/project-courses.css";
 import Footer from "./components/Footer";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 1500
+});
 
 
 function App() {

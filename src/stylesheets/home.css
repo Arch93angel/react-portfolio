@@ -5,6 +5,8 @@
     background-size: cover;
 }
 
+
+
 .introduction p {
     font-weight: bold;
     color: rgba(255, 255, 255, 0.545);
@@ -32,6 +34,11 @@
     border-radius: 25px;
     border: none;
     width: 50%;
+}
+
+.primary-button a {
+    text-decoration: none;
+    color: black;
 }
 
 .primary-button:hover {

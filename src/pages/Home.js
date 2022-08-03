@@ -9,10 +9,10 @@ function Home() {
       <Header />
       <div className="introduction flex-with-center" style={{ backgroundImage: `url('./introbg.svg')` }}>
         <div>
-          <h1>D.N. FATE</h1>
+          <h1 data-aos="fade-up">D.N. FATE</h1>
           <div className="intro-content d-flex justify-content-between ">
             <p>MERN Stack <br />Developer, Data Analyst</p>
-            <button className="primary-button font-bold">Get Started</button>
+            <button className="primary-button font-bold"><a href="#courosel"> Get Started</a></button>
           </div>
         </div>
       </div>
@@ -26,7 +26,7 @@ function Home() {
         <div className="row justify-content-start ">
           <div className="col-md-4">
             <div className='n-box2 p-5 font-bold'>
-              <h1>Yes you are right...</h1>
+              <h1 data-aos="fade-right">Yes you are right...</h1>
               <br />
               <p>I am a fullstack developer...</p>
             </div>
@@ -35,13 +35,13 @@ function Home() {
         <div className="row pt-5 justify-content-center">
           <div className="col-md-4">
             <div>
-              <img src="../IMG_2076.jpeg" alt="" height="300" className="w-100 img-fluid img-thumbnail" />
+              <img src="../IMG_2076.jpeg" alt="" height="300" className="w-100 img-fluid img-thumbnail" data-aos="fade-up" />
             </div>
           </div>
         </div>
         <div className="row pt-5 justify-content-end">
           <div className="col-md-4">
-            <div className='n-box2 p-5 font-bold'>
+            <div className='n-box2 p-5 font-bold' data-aos="fade-left">
               <p>Full stack technology refers to the entire depth of a computer system application, and full stack developers straddle two separate web development domains: the front end and the back end.</p>
             </div>
           </div>

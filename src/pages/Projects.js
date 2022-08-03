@@ -10,10 +10,10 @@ function Projects() {
       <div className="container projects-intro">
         <div className="row flex-with-center mt-5">
           <div className="col-md-6 n-box2 p-5">
-            <div >
+            <div data-aos="fade-down" >
               <h1 className='font-bold'>Projects</h1>
               <p className='font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, modi. Lorem ipsum dolor sit amet.</p>
-              <button className='primary-button font-bold'>Get Started</button>
+              <button className='primary-button font-bold'><a href="#projects-list"> Get Started</a></button>
             </div>
           </div>
           <div className="col-md-6 position-relative">
@@ -27,7 +27,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="container projects-list">
+      <div className="container projects-list" id="projects-list">
         <h3 className='font-bold'>Take a look on my projects..</h3>
         <hr />
         <div className="row">

@@ -7,7 +7,7 @@ import { SiDjango, SiExpress, SiPython } from "react-icons/si";
 function Courosel() {
     return (
         <>
-            <div className="courosel-parent position-relative mt-0 py-0">
+            <div className="courosel-parent position-relative mt-0 py-0" id='courosel'>
                 <h1 className='position-absolute top-0 start-0 end-0 text-center mt-5 font-bold'>
                     My Tech Skills!
                 </h1>

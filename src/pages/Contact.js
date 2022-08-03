@@ -7,10 +7,10 @@ function Contact() {
       <Header />
       <div className="container contact mt-5">
         <div className="row pt-5">
-          <div className="col-md-6 p-5">
+          <div className="col-md-6 p-5" data-aos="fade-right">
             <img src="./background.jpeg" alt="" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up">
             <div className="contact-form m-4 p-5 n-box2">
               <h3 className='font-bold'>Contact Me</h3>
               <hr />
