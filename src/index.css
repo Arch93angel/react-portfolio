@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans:wght@300&family=Oswald:wght@200&family=Ubuntu:wght@300&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +7,47 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #EBECF0;
 }
+
+html {
+  overflow-x: hidden;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-with-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.n-box1 {
+  background: linear-gradient(145deg, #007373, #008989);
+  box-shadow: 5px 5px 10px #003333,
+    -5px -5px 10px #00cdcd;
+}
+
+.n-box2 {
+  border-radius: 50px;
+  background: #ebecf0;
+  box-shadow: 5px 5px 0px #bcbdc0,
+    -5px -5px 0px #ffffff;
 }

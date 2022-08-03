@@ -1,0 +1,125 @@
+.introduction {
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.introduction p {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.545);
+}
+
+.introduction div h1 {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.508);
+    font-size: 100px;
+}
+
+.introduction div h1:hover {
+    color: white;
+    cursor: default;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.intro-content {
+    margin-top: 30px;
+}
+
+.primary-button {
+    background-color: skyblue;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    width: 50%;
+}
+
+.primary-button:hover {
+    color: darkblue;
+    background-color: transparent;
+    border: 1px solid teal;
+}
+
+.devstack {
+    transition: all 0.9s;
+    padding: 10px;
+}
+
+.devstack:hover {
+    color: white;
+    background-color: #001220;
+    transform: scale(1.02);
+    box-shadow: none;
+}
+
+.who-i-am {
+    height: 75vh;
+    background-size: 100% 100%;
+    color: white;
+    transition: all 0.5s;
+}
+
+.who-i-am:hover {
+    transform: scale(1.2);
+}
+
+pre {
+    font-size: 16px;
+}
+
+@media(max-width:750px) {
+    .introduction div h1 {
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.508);
+        font-size: 70px;
+    }
+
+    .primary-button {
+        color: skyblue;
+        background-color: transparent;
+        border: 1px solid teal;
+        height: 45px;
+        border-radius: 25px;
+        width: auto;
+        padding: 5px 15px;
+    }
+
+    .intro-content {
+        margin-top: 30px;
+    }
+
+    .devstack {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .who-i-am {
+        height: 100vh;
+        background-size: 200% 100%;
+        color: white;
+        background-position: center;
+        font-size: small;
+
+    }
+
+    pre {
+        font-size: 15px;
+
+    }
+}
+
+@media(max-height:400px) {
+    .who-i-am {
+        height: 100vh;
+        background-size: 200% 100%;
+        color: white;
+        background-position: center;
+        font-size: medium;
+
+    }
+
+    pre {
+        font-size: 12px;
+
+    }
+}

@@ -1,0 +1,212 @@
+.menu-icon {
+    color: skyblue;
+    font-size: 70px;
+    margin: 20px;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.show-header {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #00808026;
+    opacity: 0.90;
+    height: 65vh;
+    width: 45%;
+    border-bottom-left-radius: 50%;
+    border-left: 5px solid rgba(255, 255, 255, 0.269);
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+.hide-header {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0%;
+    transition: all 0.5s;
+}
+
+ul li {
+    color: white;
+    list-style: none;
+    margin-top: 25px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.active {
+    border: 4px solid cyan;
+    padding: 0px 50px;
+    border-radius: 10px;
+}
+
+.active a {
+    font-weight: bold;
+}
+
+.contact img {
+    height: 60vh;
+    margin-left: 100px;
+}
+
+.form-control:focus {
+    transform: scale(1.02);
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+input,
+textarea {
+    margin-top: 25px;
+    border: none !important;
+    border-radius: 20px !important;
+    background: linear-gradient(145deg, #d4d4d8, #fbfdff);
+    box-shadow: 5px 5px 0px #bcbdc0,
+        -5px -5px 0px #ffffff !important;
+}
+
+.contact button {
+    background-color: rgba(0, 0, 255, 0.907);
+    color: white;
+    font-weight: bold;
+}
+
+.footer-content {
+    background-color: #001220;
+    text-align: center;
+    color: white;
+}
+
+.footer-icons {
+    color: white;
+
+}
+
+.footer-icons:hover {
+    transform: scale(2);
+    color: teal;
+    cursor: pointer;
+}
+
+.author {
+    font-size: 10px;
+}
+
+@media(max-width:750px) {
+    .show-header {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #00808026;
+        opacity: 0.90;
+        height: 100vh;
+        width: 90%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-left: 5px solid rgba(255, 255, 255, 0.336);
+        transition: width 0.5s;
+        z-index: 3;
+    }
+
+    .hide-header {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        height: 0;
+        width: 0%;
+        transition: width 0s;
+    }
+
+    .menu-icon {
+        color: skyblue;
+        font-size: 45px;
+    }
+}
+
+@media(max-height:400px) {
+    .show-header {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #00808026;
+        opacity: 0.90;
+        height: 100vh;
+        width: 40%;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        border-left: 5px solid rgba(255, 255, 255, 0.336);
+        transition: width 0.5s;
+        z-index: 3;
+    }
+
+    .hide-header {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        height: 0;
+        width: 0%;
+        transition: width 0s;
+    }
+
+    .menu-icon {
+        color: skyblue;
+        font-size: 50px;
+    }
+
+}

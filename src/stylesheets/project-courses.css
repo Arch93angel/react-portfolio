@@ -1,0 +1,156 @@
+.projects-intro.primary-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.courses {
+    background-color: #001220;
+}
+
+.courses-intro {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-content {
+    color: white;
+    width: 50%;
+    border-left: 5px solid teal;
+    padding-left: 20px;
+    animation: course-animation 5s linear infinite;
+}
+
+.courses-content h1 {
+    font-size: 80px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: cyan;
+    border-bottom: 2px solid white;
+}
+
+.courses-content p {
+    border-right: 2px solid white;
+}
+
+.projects-list {
+    overflow: hidden;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.245);
+    border-radius: 10px;
+    margin-top: 20px;
+    animation: project-animation 5s linear infinite;
+}
+
+.project img {
+    height: 220px;
+    width: 100%;
+}
+
+.project:hover>.project-content {
+    opacity: 1;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+.project:hover {
+    animation-play-state: paused;
+}
+
+.project-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.9s;
+}
+
+
+@media(max-width:750px) {
+    .courses-content {
+        color: white;
+        width: 95%;
+        border-left: 5px solid teal;
+        padding-left: 10px;
+    }
+
+    .courses-content h1 {
+        font-size: 45px;
+    }
+}
+
+@media(max-height:400px) {
+    .courses-content {
+        color: white;
+        width: 95%;
+        border-left: 5px solid teal;
+        padding-left: 10px;
+    }
+
+    .courses-content h1 {
+        font-size: 60px;
+    }
+}
+
+@keyframes project-animation {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes course-animation {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
